@@ -3,3 +3,7 @@ wget "http://192.168.100.10/lab-tools/genymotion/raw/master/genymotion-2.12.2-li
 chmod +x genymotion-2.12.2-linux_x64.bin?inline=false
 ./genymotion-2.12.2-linux_x64.bin?inline=false
 rm genymotion-2.12.2-linux_x64.bin?inline=false
+echo "export OPENSSL_CONF=/etc/ssl/" >> /root/.bashrc
+echo "export OPENSSL_CONF=/etc/ssl/" >> /home/iis/.bashrc
+source /root/.bashrc
+source /home/iis/.bashrc
