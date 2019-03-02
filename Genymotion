@@ -1,5 +1,5 @@
 
-wget "http://192.168.100.10/lab-tools/genymotion/raw/master/genymotion-2.12.2-linux_x64.bin?inline=false"
+wget "http://192.168.100.10/lab-tools/genymotion/raw/master/genymotion-3.0.1-linux_x64.bin?inline=false"
 chmod +x genymotion-2.12.2-linux_x64.bin?inline=false
 ./genymotion-2.12.2-linux_x64.bin?inline=false
 rm genymotion-2.12.2-linux_x64.bin?inline=false
