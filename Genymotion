@@ -1,7 +1,7 @@
 
-wget "http://192.168.100.10/lab-tools/genymotion/raw/master/genymotion-3.0.1-linux_x64.bin?inline=false"
-chmod +x genymotion-3.0.1-linux_x64.bin?inline=false
-./genymotion-3.0.1-linux_x64.bin?inline=false
+wget "http://192.168.100.5/files/mobile-security/genymotion-3.0.1-linux_x64.bin"
+chmod +x genymotion-3.0.1-linux_x64.bin
+./genymotion-3.0.1-linux_x64.bin
 rm genymotion-3.0.1-linux_x64.bin
 echo "export OPENSSL_CONF=/etc/ssl/" >> /root/.bashrc
 echo "export OPENSSL_CONF=/etc/ssl/" >> /home/iis/.bashrc
